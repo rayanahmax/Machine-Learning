@@ -1,7 +1,0 @@
-name: Intentionally Fail
-on: [pull_request]
-jobs:
-  break:
-    runs-on: ubuntu-latest
-    steps:
-      - run: exit 1
